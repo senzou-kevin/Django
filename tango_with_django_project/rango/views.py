@@ -22,8 +22,7 @@ def index(request):
 
 
 def about(request):
-    context_name = {'name': 'senzou'}
-    return render(request, 'rango/about.html', context=context_name)
+    return render(request, 'rango/about.html')
 
 
 def show_category(request, category_name_slug):
